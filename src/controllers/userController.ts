@@ -9,7 +9,7 @@ import { AuthRequest } from "../utils/types/jwtType";
 
 @injectable()
 export class UserController {
-  constructor(@inject("IUserService") private userService: IUserService) {}
+    constructor(@inject("IUserService") private userService: IUserService) {}
 
  
 
